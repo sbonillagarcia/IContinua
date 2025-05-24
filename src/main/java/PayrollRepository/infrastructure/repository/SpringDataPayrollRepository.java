@@ -1,4 +1,12 @@
 package PayrollRepository.infrastructure.repository;
 
-public interface SpringDataPayrollRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import payroll_service.domain.model.Payroll;
+
+public interface SpringDataPayrollRepository extends JpaRepository<Payroll, Long>{
+
+
+    
+
 }

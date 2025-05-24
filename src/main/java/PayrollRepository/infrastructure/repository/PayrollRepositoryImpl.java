@@ -17,14 +17,14 @@ import java.util.*;
         
         @Override
         public List<Payroll> findAll() {
-            // TODO Auto-generated method stub
-            return null;
+            
+             return jpaRepository.findAll();
         }
 
         @Override
         public Payroll save(Payroll payroll) {
-            // TODO Auto-generated method stub
-            return null;
+          
+            return jpaRepository.save(payroll);
         }
 
         
